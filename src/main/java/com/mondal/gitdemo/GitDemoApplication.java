@@ -13,8 +13,14 @@ public class GitDemoApplication {
 		SpringApplication.run(GitDemoApplication.class, args);
 	}
 
+
 	@GetMapping("/hello")
 	public String hello() {
 		return "Hello World";
+	}
+
+
+	public void display() {
+		System.out.println("display()");
 	}
 }
