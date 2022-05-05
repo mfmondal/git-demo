@@ -10,4 +10,15 @@ public class GitDemoApplication {
 		SpringApplication.run(GitDemoApplication.class, args);
 	}
 
+
+
+
+
+
+
+
+
+
+public void display() {
+	System.out.println("display()");
 }
